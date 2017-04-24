@@ -2,7 +2,7 @@
 
 This repository shows how to implement [Docker FastPath](https://github.com/mfornasa/docker-fastpath) using [Travis CI](https://travis-ci.com). Travis CI is free for open source projects and you can sign up for a free trial for private projects.
 
-Refer to this [blog post](??) for a general introduction to Docker FastPath.
+Refer to this [blog post](https://medium.com/@mfornasa/docker-fastpath-only-build-your-images-once-a4c3beeae7d3) for a general introduction to Docker FastPath.
 
 The repository contains a mokcup Node.js application, but the approach is applicable to any application based on Docker and built on Travis CI. The procedure assumes that you have an account on Docker Hub (they offer a free 1-image plan), but you can use your own private Docker registry (standalone, AWS ECR, etc.). I you prefer to use Jenkins, see the [Jenkins version](https://github.com/mfornasa/docker-fastpath-jenkins).
 
@@ -71,5 +71,5 @@ Deploy xxx/test:8385be7eba53d8278b7307e5ac058b6535e80bab (placeholder)
 
 Super-fast, and no risks of introducing untested errors in you deploy.
 
-This is a simplified example: FastPath is going to detect every case in which the pushed codebase is identical to a codebase alredy built in the past. See this [blog post](??) for some examples.
+This is a simplified example: FastPath is going to detect every case in which the pushed codebase is identical to a codebase alredy built in the past. See this [blog post](https://medium.com/@mfornasa/docker-fastpath-only-build-your-images-once-a4c3beeae7d3) for some examples.
 
